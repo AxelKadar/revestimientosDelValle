@@ -2,31 +2,43 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: orangered;
 }
-header{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr;
-    justify-items: center;
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
 }
 header img {
+    margin: 5px;
+    padding: 5px;
     width: 150px;
     height: 150px;
-    padding: 10px;
 }
 header nav {
-    
+    margin: 5px;
+    padding: 5px;
 }
 #inicioId {
-    background-color: orangered;
     color: black;
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
+}
+
+#nuestrosTrabajosId {
+    background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
 }
 section h1 {
     text-align: center;
@@ -68,50 +80,27 @@ section h6 {
 
 
 #caracteristicasDelTrabajoId {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
+}
+
+.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "titulo titulo titulo"
-    "div1 div2 div3"
-    "div4 div5 div6"
-    "div7 none none";
-    justify-items: center;
-
-}
-.titulocaract {
-    grid-area: titulo;
-}
-.div1 {
-    grid-area: div1;
-}
-.div2 {
-    grid-area: div2;
-}
-.div3 {
-    grid-area: div3;
-}
-.div4 {
-    grid-area: div4;
-}
-.div5 {
-    grid-area: div5;
-}
-.div6 {
-    grid-area: div6;
-}
-.div7 {
-    grid-area: div7;
-}
-section div {
-    display: flex;
-    flex-direction: row;
+    grid-template-rows: 1fr 1fr;
     
 }
 section h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.modelo {
     margin: 10px;
     padding: 10px;
 }
@@ -128,13 +117,20 @@ section div img {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
+}
+.modelos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 section div h6 p {
     font-weight: 100;
     font-size: medium;
 }
 footer {
-    background-color: orangered;
+    background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
     text-align: center;    
     font-size: medium;
     margin: 10px;
@@ -224,6 +220,6 @@ footer {
     
     }
  
-
+    
 
 
