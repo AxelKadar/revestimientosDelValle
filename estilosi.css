@@ -2,107 +2,63 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: orangered;
+    
 }
 header{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr;
-    justify-items: center;
-    align-items: center;
+    background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
 }
-header img {
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-}
-header nav {
-    
+  
+.bg-light {
+    --bs-bg-opacity: none;
+    background-color: ;
 }
 #inicioId {
-    background-color: orangered;
-    color: black;
-    color: black;
+    background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
+}
+.img-car {
+    height: 700px;
+    width: 630px;
+}
+
+
+#nuestrosTrabajosId {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
 }
-section h1 {
-    text-align: center;
-    margin: 15px;
-    padding: 15px;
-    
-}
-section h5{
-    font-weight: bolder;
-    margin: 15px;
-    padding: 15px;
-    font-size: medium;
-}
-section h6 {
-    font-weight: lighter;
-    margin: 15px;
-    padding: 15px;
-    font-size: medium;
-}
-
-
-.titulo {
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-}
-
-
 
 .imagenes {
-    margin: 10px;
-    padding: 10px;
-    width: 200px;
-    height: 200px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
+
+
+
 
 
 #caracteristicasDelTrabajoId {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "titulo titulo titulo"
-    "div1 div2 div3"
-    "div4 div5 div6"
-    "div7 none none";
-    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
+ }
+ 
+ .cards {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     
+ }
 
-}
-.titulocaract {
-    grid-area: titulo;
-}
-.div1 {
-    grid-area: div1;
-}
-.div2 {
-    grid-area: div2;
-}
-.div3 {
-    grid-area: div3;
-}
-.div4 {
-    grid-area: div4;
-}
-.div5 {
-    grid-area: div5;
-}
-.div6 {
-    grid-area: div6;
-}
-.div7 {
-    grid-area: div7;
-}
+ .card-tam {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(253 185 83);
+ }
 section div {
     display: flex;
     flex-direction: row;
@@ -125,49 +81,62 @@ section div img {
 #modelosId {
     color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    background-color: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
 }
+
 section div h6 p {
     font-weight: 100;
     font-size: medium;
 }
 footer {
-    background-color: orangered;
-    text-align: center;    
-    font-size: medium;
-    margin: 10px;
-    padding: 10px;
+    background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
+.pie {
+    margin: 5px;
+   padding: 5px;
+}
+
 
 /* CONTACTO */
 
 #seccionContacto{
-    background-color: orangered;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
+  
 }
 .contacto {
     display: flex;
     justify-content: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: px;
+}
+.inp {
+    margin: 5px;
+    padding: 5px;
 }
 .presupuesto {
     display: flex;
     justify-content: center;
     justify-content: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .mapa {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    background-image: linear-gradient( 112.7deg,  rgba(253,185,83,1) 11.4%, rgba(255,138,0,1) 70.2% );
 }
  section p {
     align-items: center;
