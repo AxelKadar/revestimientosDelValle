@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: $color-fondo;
+    h1 {
+      display: flex;
+      justify-content: center;
+      margin: 5px;
+      padding: px;
+    }
+    div {
+        margin: 5px;
+        padding: 5px;
+    }
+    p {
+      display: flex;
+      justify-content: center;
+      justify-content: center;
+      margin: 5px;
+      padding: 5px;
+    }
+  }
+
+  
+  
+  .mapa {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: $color-fondo ;
+  }
+.tam-p {
+      align-items: center;
+      margin: 2px;
+      padding: 2px;
+   }
+   .txt {
+    margin: 5px;
+    padding: 5px;
+   }
